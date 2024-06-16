@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #f0e8e8;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.welcome{
+    position: relative;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    gap: 100px;
+    padding: 100px 0px;
+    background: rgb(255, 255, 255);
+    border: 2px solid;
+    max-width: 90vw;
+    border-radius: 20px;
+}
+
+.play{
+    background: rgb(255, 255, 255);
+    border: 2px solid;
+    max-width: 90vw;
+    border-radius: 20px;
+}
+
+.welcome div{
+    width: 70%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.result_field{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: min(80vw, 600px);
+    gap: 20px;
+    padding: 20px;
+}
+
+.result_image{
+    display: flex;
+    gap: 100px;
+}
+
+.user_result{
+    width: min(20vw, 100px);
+    rotate: 90deg;
+}
+.cpu_result{
+    width: min(20vw, 100px);
+    transform: rotate(-90deg) rotateY(180deg);
+}
+
+.result{
+    font-size: xx-large;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.option{
+    width: min(70vw, 500px);
+    display: flex;
+    margin: auto;
+    gap: 50px;
+    position: relative;
+    justify-content: space-around;
+}
+
+.option div{
+    width: min(20vw, 80px);
+    cursor: pointer;
+}
